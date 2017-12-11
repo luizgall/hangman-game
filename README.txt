@@ -1,0 +1,4 @@
+Enforcado foi um projeto desenvolvido no tempo livre. É um jogo de forca onde há uma palavra escolhida aleatoriamente de um banco de dados que o usuário deve acertar. Dependendo de quantas letras ele chutar, diferente será a  pontuação recebida. Quando o jogo terminar, o usuário tem a possibilidade de enviar seu nome e sua pontuação para o banco de dados, que então mostra as 10 melhores pontuações e respectivos nomes. 
+
+Eu removi a senha do banco de dados do arquivo PHP por motivos de segurança, mas caso queira ver este projeto funcionando, acesse o seguinte link: 
+http://llag.com.br/enforcado/index.html

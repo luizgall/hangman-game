@@ -1,0 +1,240 @@
+body{
+                background-color: black;
+                height:100%
+                width:100%;
+                color: #daffd6;
+font-family: 'Montserrat', sans-serif;
+                margin:0;
+                padding:0;
+            }
+            
+            header{
+                position:absolute;
+                top:0;
+                height: 14%;
+                width: 100%;  
+                border-bottom: 5px solid #9aad98;
+                }
+            header #titulo{
+                position:absolute;
+                left:15%;
+                top:5%;
+                font-size: 3vw; 
+            }
+            
+            #Llag{
+                position:absolute;
+                left:70%;
+                font-size: 1.5vw;
+                top:65%;
+                
+            }
+            main{
+                height:100%;
+                width:100%;
+     
+                
+            }
+            aside{
+                position:absolute;
+                height: 90vh;
+                width:40vw;
+                top:10%;
+                border-right: 4px solid #9aad98;
+                
+            }
+            #main{
+                position:absolute;
+                height: 90%;
+                width:40%;
+                top:10%;
+                left:40%;
+                border-left: 0.5vw solid #9aad98;   
+            }
+            
+            input {background-color: black;
+            text-indent: 1vw;}
+            
+            #enforcado{
+                position:absolute;
+                height: 95%;
+
+                width:95%;
+                transition: background-image 0.5s;
+              background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+            }
+            
+            #letrasTentadas{
+                position:absolute;
+                top: 80%;
+                margin: 5%;
+                width:90%;
+                height:10%;
+background-color:black;
+            }
+            
+            #letrasTentadas div{
+                text-align: center;
+                width: 14%;
+                font-size: 5vw;
+                margin-left:1vw;
+                float: left;
+                transition: color 1s;
+                 -webkit-transition: color 1s;
+                
+            }
+            
+            #letrasTentadas div.aviso{
+                color:red;
+            }
+            #palavra{
+                height: 20vh;
+                width: 50vw;
+                position: absolute;
+                left: 10%;
+                top: 10%;
+                font-size:4vw;
+                 letter-spacing: 1vw;
+                display:flex;
+ flex-wrap: wrap;
+                 justify-content: center;
+            }
+            #jogador{
+                height: 40vh;
+                width: 50vw;
+                position: absolute;
+                left: 10%;
+                top: 30%; 
+font-size:2vw; 
+            }
+            
+            #tentativa, #nomeJogador{
+                position:absolute;
+                height:10vh;
+                width: 30vw;
+                left:20%;
+                color: #daffd6;
+                font-size: 3vw;
+                border:0.5vw double #9aad98;  
+                border-left: 0.2vw solid #9aad98;
+                border-right: 0.2vw solid #9aad98;
+            }
+#nomeJogador{
+
+top:25%;
+}
+            
+            #enviar, #enviaPontos, #pular, #aleatorio, #novamente{
+                    position:absolute;
+                height:10vh;
+                width: 8vw;
+                left:43%;
+                top:40%;
+                background-color: black;
+                color: #daffd6;
+                border: 0.5vw solid #9aad98; 
+                border-left: 0.1vw solid #9aad98;
+                border-right: 0.1vw solid #9aad98;
+            
+                font-size: 2vw;
+            }
+#enviaPontos{
+top:65%;
+}
+
+#aleatorio , #pular{
+height: 6vh;
+width: 6vw;
+font-size: 1.7vw;
+}
+
+#aleatorio{
+ left:23%;
+}
+#pular{
+left:63%;
+}
+   #novamente{
+width:12vw;
+font-size: 1.7vw;
+top: 85%;
+left: 50%;
+} 
+            #dica{
+                
+                position:absolute;
+                height:8vh;
+                font-size:2vw;
+                width: 20vw;
+                left:30%;
+                top:85%;
+                color: #daffd6;
+                display:block;
+
+            }
+
+            
+            .letra{
+                height:6vh;
+                text-align: center;
+            }
+
+section{
+           position:absolute;
+                height:8vh;
+                font-size:2vw;
+                width: 20vw;
+                left:30%;
+                top:85%;
+
+}
+
+#pergunta{
+position:absolute;
+top: -20%;
+font-size: 4vw;
+}
+
+table td, th{
+height: 2vh;
+width: 12vw;
+padding: 1vh;
+text-align: center;
+}
+th{
+border: 0.2vw solid #9aad98;
+border-collapse: collapse;
+}
+caption, th{
+font-size:1.5vw;
+padding:1vw;
+}
+
+table{
+position: absolute;
+top: 5%;
+left: 30%;
+font-size: 1.3vw;
+
+}
+button:hover{
+background-color: #7a0000;
+
+}
+    @-webkit-keyframes colorchange {
+     33% {
+        background-color:#daffd6;
+      color: black;
+     }
+
+     100% {
+         background-color:black;
+        color: #daffd6;
+
+     }
+    }
